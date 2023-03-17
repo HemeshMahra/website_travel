@@ -1,0 +1,1022 @@
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo-caption{
+    margin-top: -5rem;
+    margin-left: 4rem;
+}
+.logo_img{
+    margin: 2vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 51vw;
+    align-items: center;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav a:hover{
+    border-bottom:2px solid;
+}
+.tog,#check{
+    display:none;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.button{
+      padding: 10px 25px;
+      margin:3vh;
+      border-radius:31px ;
+      border-color: orange;
+      color: orange;
+}
+.button:hover{
+      transform: scale(105%);
+}
+.vector{
+      margin-left: 10px;
+}
+.header{
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header-content{
+    width: 31vw;
+    height: 60vh;
+}
+.header-head{
+    font-size: 5vw;
+}
+.header-para{
+    font-size: 20px;
+}
+.header-image{
+    height: 82vh;
+    margin-top: 8vw;
+    margin-right: 8vw;
+}
+.IMAGE-ONE{
+    margin-top: -19vh;
+    margin-left: -7vh;
+}
+.passport-img-one{
+    position: absolute;
+    margin-left: 30px;
+}
+.passport-img-one:hover{
+    transform: scale(120%);
+}
+.passoprt-img-two{
+    margin-right: 5px;
+}
+.passport-img-two:hover{
+    transform: scale(120%);
+}
+.passoprt-img-three{
+    position: absolute;
+    margin-left: 10px;
+}
+.passport-img-three:hover{
+    transform: scale(120%);
+}
+.details{
+    margin-left: -7vh;
+}
+.IMAGE-MULTI{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-left: 6vw;
+    margin-top: -2vh;
+margin-left: -4vw;
+}
+.man-img{
+    border-radius: 50%;
+    background-color: #ffd482;
+    width: 23rem;
+}
+.info{
+    background-color: #fff;
+    width: 35vw;
+    height: 12vh;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.info-location{
+    width: 40%;
+    height: 14vh;
+    margin-left: 1rem;
+}
+.info-location h2{
+    font-size: 15px;
+}
+.info-date{
+    width: 40%;
+    height: 14vh;
+    margin-left: 1rem;
+}
+.info-date h2{
+    font-size:15px;
+}
+.search{
+    width: 11%;
+    height: 8vh;
+    margin-top: 2vh;
+}
+.catagories{
+    margin-top: 50px;
+    height: 107vh;
+    width: 100%;
+}
+.catagories-content{  
+   width: 97vw;
+   height: 54vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.content{
+   width: 28vw;
+   height: 51vh;
+   align-items: center;
+   margin-left: -10vw;
+}
+.next{
+   margin-top: 5rem;
+   width:3.2vw;
+   height:7vh;
+   border-radius: 50%;
+   font-size: 1.7rem;
+   color:black;
+   border:1px solid;
+}
+.next:hover{
+    background-color: black;
+    color: white;
+}
+.next-icon{
+   margin-top: 20vh;
+   margin-left: 35vh;
+   width: 40%;
+   height: 10vh;
+}
+.catog-heading{
+    font-size: 4vw;
+}
+.catog-para{
+    font-size: 21px;
+}
+.catagories-image{
+  width: 80vw;
+  height: 52vh;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.catog-div{
+  width: 27vw;
+  height: 47vh;
+}
+
+.rect-img:hover{
+    transform: scale(105%);
+}
+.img-desc{
+  font-size: 26px;
+  margin-left: 3vw;
+}
+.Experience{
+   margin-top: 30px;
+   width: 100%;
+   height: 92vh;  
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.Expert-photographer{
+    width: 87%;
+    margin-top: 8vh;
+    background-color: #ffd482;
+    border-radius: 50%;
+    transition: width 2s;
+}
+.Expert-photographer:hover{
+    transform: scale(120%);
+}
+.feedback{
+   width: 35%;
+   height: 90vh;
+}
+.feed-head-one{
+   font-size: 20px;
+   color: orange;
+   letter-spacing: 4px;
+}
+.feed-head-two{
+   font-size: 37px;
+}
+.feed-para{
+   font-size:16px;
+}
+.success{
+   width: 100%;
+   height: 30vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.success-rate{
+   background-color: #FAF8ED;
+   width: 26%;
+   height: 27vh;
+   background-color: #fff;
+   box-shadow: 2px 2px 8px gray;
+   border-radius: 10px;
+}
+.success-rate:hover{
+    transform: scale(120%);
+}
+.reviews-heading{
+    font-size: 37px;
+}
+.rating-point{
+    position: relative;
+}
+.rating-point h2{
+    margin-left: 10px;
+}
+.rating-point p{
+    margin-left: 10px;
+}
+.fa{
+    color: yellow;
+    margin-left: 10px;
+}
+.rate{
+   font-size: 30px;
+   margin-left:2vw;
+   color: orangered;
+}
+.Next{
+    margin-top: 2rem;
+   width:3.2vw;
+   height:7vh;
+   border-radius: 50%;
+   font-size: 1.7rem;
+   color:black;
+   border:1px solid;
+}
+.Next:hover{
+    background-color: black;
+    color: white;
+}
+.award{
+   font-size: 22px;
+   text-align: center;
+}
+.destination-card-one{
+   width: 100%;
+   height: 120vh; 
+}
+.destination-header-one{
+   width: 100%;
+   height: 40vh;
+   margin-top: 5vh;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.destination_header{
+   width: 30%;
+   height: 35vh;
+}
+.NEXT-ICON{
+   margin-top: 10vh;
+   margin-left: 35vh;
+   width: 40%;
+}
+body{
+    background-color: #faf8ed;
+    font-family: "poppins";
+    overflow-x: hidden;
+}
+.Header-head{
+   font-size: 50px;
+   margin-left: -10vw;
+}
+.header-next{
+   width: 30%;
+   height: 35vh;
+}
+.card{
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card-item{
+    background-color:white;
+    box-shadow: 2px 2px 8px gray;
+    width: 25%;
+    height: 67vh;
+    margin: 20px;
+    border-radius: 25px;
+}
+.card-item:hover{
+    transform: scale(110%);
+}
+.card-button{
+    border: 1px solid black;
+}
+.rect-image{
+    width: 96%;
+    margin-top: 7px;
+    margin-left: 5px;
+    transition: width 2s;
+}
+.rect-image:hover{
+    transform: scale(105%);
+}
+.card-item h1{
+    font-size:22px;
+    margin-left:5px;
+}
+.card-item p{
+    margin-left:5px;
+}
+.price{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+.price h2{
+    font-size: 20px;
+    margin-left:5px;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: absolute;
+    right: 6px;
+    margin-top:-50px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+
+}
+.destination-card-two{
+    margin-top: 30px;
+    width: 100%;
+    height: 130vh;
+}
+.card-two-head{
+    width: 41%;
+    height: 33vh;
+    margin-left: 30vw;
+    margin-top: 10vh ;
+}
+.card-two-heading{
+    font-size: 40px;
+    text-align: center;
+}
+.card-two-para{
+    font-size:16px;
+    text-align: center;
+}
+.multi-button{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.BTN{
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.BTN:hover{
+    background-color: black;
+    color: white;
+}
+.multi-card{
+    width: 100%;
+    height: 93vh;
+    margin-top: 20px;
+    position: relative;
+}
+.img-one{
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+}
+.img-one:hover{
+    transform: scale(105%);
+}
+.img-two{
+    position: absolute;
+    left: 26vw;
+    top: 5vh;
+    width: 27%;
+}
+.img-two:hover{
+    transform: scale(105%);
+}
+.img-three{
+    position: absolute;
+    left: 5vw;
+    top: 45vh;
+    width: 20vw;
+}
+.img-three:hover{
+    transform: scale(105%);
+}
+.img-four{
+    position: absolute;
+    left: 54vw;
+    top: 2vw;
+}
+.img-four:hover{
+    transform: scale(105%);
+}
+.img-five{
+position: absolute;
+left: 54vw;
+top: 44vh;
+
+}
+.img-five:hover{
+    transform: scale(105%);
+}
+.img-six{
+position: absolute;
+left: 69vw;
+top: 44vh;
+
+}
+.img-six:hover{
+    transform: scale(105%);
+}
+.customer-review{
+margin-top: 60px;
+width: 100%;
+height: 80vh;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.reviews{
+width: 40%;
+height: 70vh;
+margin-top: 20px;
+}
+.cust-img{ 
+width: 25vw;
+margin-top: 5vh;
+}
+.cust-img:hover{
+transform: scale(120%);
+}
+.rating-point{
+height: 20vh;
+display: flex;
+flex-direction: row;
+}
+.Nxt-prev{
+margin-top: -18vh;
+margin-bottom: 76vh;
+margin-left: 48vh;
+width: 40%;
+}
+.reviews-heading{
+font-size: 50px;
+}
+.review-para{
+width: 80%;
+height: 40vh;
+background-color: #fff;
+}
+.Arrow{
+    margin-left: 7vw;
+}
+.PARA{
+font-size: 16px;
+margin-left: 10px;
+}
+.SignUp{
+ width: 65%;
+ height: 45vh;
+ margin-left: 18vw;
+ margin-top: 5vh;
+ border-radius: 15px;
+ background-color: #ffd482;
+ display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+}
+.SignUp h1{
+ font-size:40px;
+ text-align: center;
+}
+.SignUp p{
+  font-size: 20px;
+  text-align: center;
+  margin-top: -1vh;
+}
+.vector-two{
+    margin-left: -4vw;
+}
+.email{
+    width: 63%;
+    padding: 20px 50px;
+    margin-left: 10vh;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+.form{
+   width: 100%;
+   height: 50vh;
+}
+.footer{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+#footer-logo{
+    margin-top: 6vh;
+    margin-left: 4vw;
+}
+.footer-logo-caption{
+    font-size: 10px;
+    margin-left: 7vw;
+    margin-top: -8vh;
+}
+.information{
+    font-size: 25px;
+    text-align: center;
+}
+.fb{
+    width: 30%;
+    margin-left: 6vw;
+}
+.footer-info{
+    width: 18vw;
+    height: 45vh;
+    margin-top: 5vh;
+}
+.footer-info:hover{
+    transform: scale(120%);
+}
+.footer-info h2{
+    font-size: 20px;
+    margin-top: 5vh;
+    text-align: center;
+}
+.footer-info p{
+    text-align: center;
+    font-size: 16px;
+}
+.animation{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.animation.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+.Hr-animation {
+    display: block; 
+    width: 90%;
+    animation: move 10s linear infinite;
+  }
+@keyframes move {
+    to { transform: translateX(100%); }
+}
+
+@media screen and (min-device-width: 300px)and (max-device-width:600px){
+    .navbar{
+           width: 292vw;
+           height: 30vh;
+    }
+    .logo-caption {
+           font-size: 37px;
+           margin-top: -12rem;
+           margin-left: 43vw;
+    }
+    .logo_img {
+           width: 40%;
+           margin-top: 7vh;
+           margin-left: 4vw;
+    }
+    .nav a{
+           font-size: 113px;
+           color: white;
+    }  
+    .nav{
+           width: 324vw;
+           height: 175vh;
+           display: none;
+           margin-top: 32vh;
+           margin-left: 30vw;
+           position: absolute;
+           background-color: black;
+        }
+    #check{
+            display: block;   
+    }
+    .tog{
+            display: block;
+            width: 125px;
+            margin-top: 22px;
+            margin-left: -3vw;
+        }
+    #check img{
+            width: 20px;
+            height: 20px;
+    }
+    #check:checked ~ .nav {
+            display: block;
+     }  
+    .button {
+            display: block;
+            padding: 23px 47px;
+            font-size: 49px;
+            margin-top: 5vh;
+     }
+    .header{
+             width: 292vw;
+             height: 244vh;
+             display: flex;
+             flex-direction: column;
+    }
+    .header-head{
+             font-size: 167px;
+             margin-left: -52vw;
+             margin-top: -114vh;
+     }
+    .header-image {
+            width: 103vw;
+            height: 77vh;
+            margin-right: -15vw;
+    }
+    .header-para{
+            font-size: 81px;
+            width: 173vw;
+            margin-left: -52vw;
+    }
+    .image-one{
+            display: none;
+    }
+    .passport-img-one{
+            display: none;
+    }
+    .passport-img-two{
+            display: none;
+    }
+    .passport-img-three{
+            display: none;
+    }
+    .DETAILS{
+            display: none;
+    }
+    .passport-img{
+            display: none;
+    }
+    .header-content{
+            margin-top: 61rem;
+            margin-left: 30rem;
+            width: 70%;
+    }
+    .man-img {
+            width: 264vw;
+            margin-top: 158vh;
+            margin-left: 32vw;
+    }
+   .info {
+            display: none;    
+    }
+    .rect-img{
+            width: 147vw;
+            margin-left: 50vw;
+            margin-top: 556vh;
+    }
+    .catog-div{
+            height: 165vh;
+            margin-top: -7vh;
+    }
+    .catagories{
+            margin-top: 3vh;
+    }
+    .catagories-content{
+            display: flex;
+            flex-direction: column;
+    }
+    .content{
+            margin-top: 207vh;
+            margin-left: 63vw;
+    }
+    .catog-heading {
+           font-size: 41vw;
+           margin-top: 189vh;
+           margin-left: -7vh;
+    }
+    .catog-para {
+          font-size: 76px;
+          width: 189vw;
+          margin-top: -9vh;
+          margin-left: 22vw;
+    }
+    .next{
+            display: none;
+    }
+    .next-icon {
+            margin-top: 63vh;
+            margin-left: 35vh;
+            width: 97%;
+            height: 10vh;
+    }
+    .catagories-image
+    {
+            display: flex;
+            margin-top: 328vh;
+            margin-left: 71vw;
+            flex-direction: column;
+            margin-left: 47vw;
+    }
+    .img-desc {
+            font-size: 90px;
+            margin-left: 88vw;
+    }
+    .Experience{
+            display: flex;
+            flex-direction: column;
+    }
+    .Expert-photographer{
+            margin-top: 1145rem;
+            margin-left: 30vw;
+            width: 272vw;
+    }
+    .destination-card-one {
+            margin-top: 730rem;
+    }
+    .feedback {
+            width: 238vw;
+            height: 90vh;
+            margin-top: 663rem;
+            margin-left: 31vw;
+            position: absolute;
+    }
+    .feed-head-one{
+           margin-top: 311rem;
+           font-size: 100px;
+           margin-left: 24vw;
+    }
+    .success-rate{
+           width: 30%;
+           height: 65vh;
+    }
+    .feed-head-two{
+           font-size: 59px;
+           margin-top: -10vh;
+           margin-left: 7vw;
+    }
+    .feed-para{
+            font-size: 46px;
+            margin-left:9vw;
+    }
+    .rate{
+            font-size: 112px;
+    }
+    .award{
+            font-size: 45px;
+    }
+    .destination_header {
+            width: -21%;
+            height: 35vh;
+            margin-top: 27vh;
+            margin-left: 20vw;
+    }
+    .Header-head {
+           font-size: 129px;
+           margin-left: 10vw;
+           margin-top: -106vh;
+    }
+    .card{
+           flex-direction: column;
+           margin-top: 158vh;
+           margin-left: 45vw;
+    }
+    .card-item{
+           width: 240vw;
+           height: 168vh;
+           margin: 20px;
+           border-radius: 25px;
+           margin-top: 12vh;
+           margin-left: 2vw;
+    }
+    .card-two-head{
+           margin-top: 390vh;
+           margin-left: 28vw;
+           width: 253vw;
+           height: 40vh;  
+    }
+    .card-item h1{
+            font-size:60px;
+    }
+    .card-item p{
+            font-size: 50px;
+    }
+    .price h2{
+            font-size: 50px;
+    }
+    .btn{
+            margin-right: 9px;
+            margin-top: -158px;
+            font-size: 45px;
+            padding: 20px 65px;
+    }
+    .card-two-heading {
+            font-size: 120px;
+    }
+    .card-two-para{
+            font-size: 50px;
+    }
+    .BTN{
+            padding: 26px 34px;
+            margin-left: -16vw;
+            border-radius: 159px;
+            font-size: 31px;
+    }
+    .multi-button{
+            margin-left: 10vw;
+    }
+    .multi-card{
+            margin-top: 35rem;
+            display: flex;
+            flex-direction: column;
+    }
+    .img-one {
+            left: 28vw;
+            top: -10vh;
+            width: 242vw;
+    }
+    .img-three {
+            left: 28vw;
+            top: 54rem;
+            width: 242vw;
+    }
+    .img-two {
+            left: 28vw;
+            top: 113rem;
+            width: 242vw;
+    }
+    .img-four {
+            left: 28vw;
+            top: 476vh;
+            width: 242vw;
+    }
+    .img-five {
+            left: 28vw;
+            top: 560vh;
+            width: 242vw;
+    }
+    .img-six {
+            left: 28vw;
+            top: 780vh;
+            width: 242vw;
+    }
+    .cust-img {
+            width: 273vw;
+            margin-top: 857rem;
+            margin-left: 10vw;
+    }
+    .customer-review{
+            display: flex;
+            flex-direction: column;
+    }
+    .reviews {
+             width: 248vw;
+             height: 81vh;
+             margin-top: 17vh;
+             margin-left: 41vw;
+    }
+    .Next{
+            display:none;
+    }
+    .SignUp{
+           margin-top: 550rem;
+           margin-left: 15vh;
+           border-radius: 5rem;
+           width: 278vw;
+           height: 106vh;
+    }
+    .reviews-heading {
+            font-size: 105px;
+    }
+    .review-para {
+        width: 248vw;
+        height: 165vh;
+        background-color: #fff;
+    }
+    .PARA {
+            font-size: 58px;
+    }
+    .rating-point {
+            width: 100%;
+            height: 20vh;
+            font-size: 58px;
+    }
+    .rating-point h2{
+            font-size: 44px;
+    }
+    .success-rate {
+        width: 30%;
+        height: 65vh;
+    }
+    .rate {
+        font-size: 112px;
+        margin-top: 2vh;
+    }
+    .SignUp h1 {
+            font-size: 77px;
+    }
+    .SignUp p {
+            font-size: 53px;
+     }
+     .fa{
+            font-size: 70px;
+     }
+     .email {
+            width: 70%;
+            padding: 56px 92px;
+            margin-left: 5vh;
+            font-size: 47px;
+            border-radius: 2rem;
+     }
+     .vector-two {
+            margin-left: -16vw;
+            width: 8vw;
+     }
+    .footer{
+            width: 150vw;
+            height: 208vh;
+            display: flex;
+            flex-direction: column;
+             margin-left: 150vw;
+             margin-top: 204rem;
+     }
+     .fb {
+            width: 45%;
+            margin-left: 20vw;
+     }
+    .footer-info h2{
+            font-size: 94px;
+            margin-left: 1vw;
+     }
+    .footer-info p{
+            font-size: 57px;
+     }
+    .footer-logo-caption h1{
+            font-size:93px;
+     }
+    #footer-logo {
+            margin-top: 6vh;
+             margin-left: 12vw;
+            width: 23%;   
+     }
+    .footer-logo-caption {
+            font-size: 15px;
+            margin-left: 48vw;
+            margin-top: -30vh;
+    }
+    .footer-info {
+            width: 164vw;
+            height: 111vh;
+            margin-top: -417vh;
+            margin-left: -69vw;
+    }
+}
+
+ 
