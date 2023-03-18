@@ -774,7 +774,7 @@ align-content: center;
             flex-direction: column;
     }
     .Expert-photographer{
-            margin-top: 1145rem;
+            margin-top: 1152rem;
             margin-left: 30vw;
             width: 272vw;
     }
@@ -789,9 +789,13 @@ align-content: center;
             position: absolute;
     }
     .feed-head-one{
-           margin-top: 311rem;
+           margin-top: 315rem;
            font-size: 100px;
            margin-left: 24vw;
+    }
+    .success{
+           margin-top: 12vh;
+           margin-left:10vw;
     }
     .success-rate{
            width: 30%;
@@ -799,12 +803,12 @@ align-content: center;
     }
     .feed-head-two{
            font-size: 59px;
-           margin-top: -10vh;
-           margin-left: 7vw;
+           margin-top: -7vh;
+           margin-left: 14vw;
     }
     .feed-para{
             font-size: 46px;
-            margin-left:9vw;
+            margin-left: 14vw;
     }
     .rate{
             font-size: 112px;
@@ -821,11 +825,11 @@ align-content: center;
     .Header-head {
            font-size: 129px;
            margin-left: 10vw;
-           margin-top: -106vh;
+           margin-top: -63vh;
     }
     .card{
            flex-direction: column;
-           margin-top: 158vh;
+           margin-top: 229vh;
            margin-left: 45vw;
     }
     .card-item{
@@ -833,12 +837,12 @@ align-content: center;
            height: 168vh;
            margin: 20px;
            border-radius: 25px;
-           margin-top: 12vh;
+           margin-top: 11vh;
            margin-left: 2vw;
     }
     .card-two-head{
-           margin-top: 390vh;
-           margin-left: 28vw;
+           margin-top: 195rem;
+           margin-left: 43vw;
            width: 253vw;
            height: 40vh;  
     }
@@ -873,7 +877,8 @@ align-content: center;
             margin-left: 10vw;
     }
     .multi-card{
-            margin-top: 35rem;
+            margin-top: 37rem;
+            margin-left:18vw;
             display: flex;
             flex-direction: column;
     }
@@ -909,8 +914,8 @@ align-content: center;
     }
     .cust-img {
             width: 273vw;
-            margin-top: 857rem;
-            margin-left: 10vw;
+            margin-top: 870rem;
+            margin-left: 26vw;
     }
     .customer-review{
             display: flex;
@@ -926,18 +931,20 @@ align-content: center;
             display:none;
     }
     .SignUp{
-           margin-top: 550rem;
+           margin-top: 563rem;
            margin-left: 15vh;
            border-radius: 5rem;
            width: 278vw;
            height: 106vh;
     }
     .reviews-heading {
-            font-size: 105px;
+          font-size: 125px;
+          margin-top: 6rem;
     }
     .review-para {
         width: 248vw;
         height: 165vh;
+        margin-top: 4rem;
         background-color: #fff;
     }
     .PARA {
@@ -985,7 +992,7 @@ align-content: center;
             display: flex;
             flex-direction: column;
              margin-left: 150vw;
-             margin-top: 204rem;
+             margin-top: 214rem;
      }
      .fb {
             width: 45%;
